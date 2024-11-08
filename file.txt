@@ -1,0 +1,23 @@
+Packet (Length: 60)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m ff:ff:ff:ff:ff:ff
+[0m[1m[32m	Address:[0m[1m ff:ff:ff:ff:ff:ff
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...1 .... .... .... .... = IG bit:[0m[1m Group address (multicast/broadcast)
+[0m[1m[32m	Source:[0m[1m 00:eb:d8:45:e4:6b
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m ARP (0x0806)
+[0m[1m[32m	Padding:[0m[1m 000000000000000000000000000000000000
+[0m[1m[32m	Address:[0m[1m 00:eb:d8:45:e4:6b
+[0m[1m[33mLayer ARP
+:[0m[1m[32m	Hardware type:[0m[1m Ethernet (1)
+[0m[1m[32m	Protocol type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Hardware size:[0m[1m 6
+[0m[1m[32m	Protocol size:[0m[1m 4
+[0m[1m[32m	Opcode:[0m[1m request (1)
+[0m[1m[32m	Sender MAC address:[0m[1m 00:eb:d8:45:e4:6b
+[0m[1m[32m	Sender IP address:[0m[1m 192.168.103.61
+[0m[1m[32m	Target MAC address:[0m[1m 00:00:00:00:00:00
+[0m[1m[32m	Target IP address:[0m[1m 192.168.100.167
+[0m
